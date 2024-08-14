@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrendyolTest">
+    <test name="Homework">
+        <classes>
+            <class name="Lecture_10.HomeworkLesson10_Trendyol">
+                <methods>
+                    <exclude name="elbiseCount"></exclude>
+                    <exclude name="addElbiseToCart"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
